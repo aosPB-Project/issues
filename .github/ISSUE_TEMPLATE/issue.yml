@@ -1,0 +1,46 @@
+body:
+- attributes:
+    label: Description of your problem
+  type: textarea
+  validations:
+    required: true
+- attributes:
+    label: Device Name
+  type: input
+  validations:
+    required: true
+- attributes:
+    label: Maintainer Telegram ID
+    description: 'e.g.: https://t.me/username'
+  type: input
+  validations:
+    required: true
+- attributes:
+    label: Screenshot of About Phone and Build Description
+  type: textarea
+  validations:
+    required: true
+- attributes:
+    label: Expected Behavior
+  type: textarea
+  validations:
+    required: true
+- attributes:
+    label: Current Behavior
+  type: textarea
+  validations:
+    required: true
+- attributes:
+    label: Steps to reproduce
+  type: textarea
+  validations:
+    required: true
+- attributes:
+    label: Clean Flashed Or Not
+  type: input
+  validations:
+    required: true
+name: aosPB-Project Issue Template
+description: Fill out the form for reporting issues
+title: New Issue
+assignees: [sajidshahriar72543, Naruto-242]
