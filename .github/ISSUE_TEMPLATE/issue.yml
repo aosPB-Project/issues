@@ -10,12 +10,6 @@ body:
   validations:
     required: true
 - attributes:
-    label: Maintainer Telegram ID
-    description: 'e.g.: https://t.me/username'
-  type: input
-  validations:
-    required: true
-- attributes:
     label: Screenshot of About Phone and Build Description
   type: textarea
   validations:
